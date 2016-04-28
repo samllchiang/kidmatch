@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">KidMatch</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_play_type">Play Type</string>
+    <string name="action_history">Score</string>
+    <string name="action_new_game">New Game</string>
+    <string name="action_login">Login</string>
+    <string name="dummy_content">Match \n Game</string>
+    <string name="element_1">Element 1</string>
+    <string name="element_2">Element 2</string>
+    <string name="element_3">Element 3</string>
+    <string name="element_4">Element 4</string>
+    <string name="dialogtxt">score Count  :  </string>
+    <string name="dialogtxt_count">score Count :  </string>
+    <string name="dialogtxt_top10list">Top10List</string>
+    <string name="dialogtxt_maxcount">MaxCount</string>
+    <string name="dialogtxt_username">UserName</string>
+    <string name="dialogtxt_one">No.1</string>
+    <string name="dialogtxt_score1">Score 1</string>
+    <string name="dialogtxt_user1">User 1</string>
+    <string name="dialogtxt_two">No.2</string>
+    <string name="dialogtxt_score2">Score 2</string>
+    <string name="dialogtxt_user2">User 2</string>
+    <string name="dialogtxt_three">No.3</string>
+    <string name="dialogtxt_score3">Score 3</string>
+    <string name="dialogtxt_user3">User 3</string>
+    <string name="answer">Answer</string>
+    <string name="question">Question(10 sec. for answer)</string>
+    <string name="clickplay">Click Button to Play Again</string>
+    <string name="ready2go">Ready to Play in 3 sec.</string>
+    <string name="play">Play</string>
+    <string name="title_elem_grid_activity">Setting</string>
+    <string name="title_add_elem_activity">Add photo</string>
+    <string name="title_activity_setup_ans">SetupAnsActivity</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <com.parse.ParseImageView
+        android:id="@+id/qusicon"
+        android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentLeft="true"
+	    android:layout_alignParentTop="true"
+	    android:layout_marginBottom="8dp"
+	    android:layout_marginLeft="8dp"
+	    android:layout_marginTop="8dp"
+	    android:adjustViewBounds="true"
+	    android:maxHeight="60dp"
+	    android:maxWidth="60dp"
+	    android:minHeight="60dp"
+	    android:minWidth="60dp"
+        />
+
+     
+     <com.parse.ParseImageView
+        android:id="@+id/ansicon"
+        android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    
+	    android:layout_alignParentTop="true"
+	    android:layout_marginBottom="8dp"
+	    android:layout_marginLeft="8dp"
+	    android:layout_marginTop="8dp"
+	    android:adjustViewBounds="true"
+	    android:maxHeight="60dp"
+	    android:maxWidth="60dp"
+	    android:minHeight="60dp"
+	    android:minWidth="60dp"
+        
+        android:layout_toRightOf="@id/qusicon"
+        />
+     
+     <com.parse.ParseImageView
+        android:id="@+id/txticon"
+        android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	     
+	    android:layout_alignParentTop="true"
+	    android:layout_marginBottom="8dp"
+	    android:layout_marginLeft="8dp"
+	    android:layout_marginTop="8dp"
+	    android:adjustViewBounds="true"
+	    android:maxHeight="60dp"
+	    android:maxWidth="60dp"
+	    android:minHeight="60dp"
+	    android:minWidth="60dp"
+        
+        android:layout_toRightOf="@id/ansicon"
+        />       
+
+    <TextView
+        android:id="@+id/titletext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        
+        android:layout_toRightOf="@id/txticon"
+          
+        />
+
+    <TextView
+        android:id="@+id/classtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+         
+        android:layout_toRightOf="@+id/titletext"
+         
+         
+        />
+    
+    <TextView
+        android:id="@+id/contenttext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        
+        android:layout_toRightOf="@+id/classtext"
+         
+         
+        />
+    
+    <CheckBox
+        android:id="@+id/checkbox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        
+        android:layout_alignParentRight="true"
+        android:text="" 
+        />
+
+</RelativeLayout>

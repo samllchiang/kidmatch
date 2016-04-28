@@ -1,0 +1,37 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_title"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/menu_title"
+        >
+    </item>   
+    <item
+        android:id="@+id/action_add"
+        android:icon="@drawable/add6"
+        android:showAsAction="always"
+        android:title="@string/action_new"
+        >
+    </item>
+    <item
+        android:id="@+id/action_setup_ques"
+        android:icon="@drawable/ques61"
+        android:showAsAction="always"
+        android:title="@string/action_setup_ques"
+        >
+    </item>    
+    <item
+        android:id="@+id/action_refresh"
+        android:icon="@drawable/refresh6"
+        android:showAsAction="always"
+        android:title="@string/action_refresh"
+        >
+    </item>
+    <item android:id="@+id/action_setup_ans"
+          android:icon="@drawable/setup6"
+          android:title="@string/action_answer"
+          android:showAsAction="always" 
+          >
+     </item>
+</menu>

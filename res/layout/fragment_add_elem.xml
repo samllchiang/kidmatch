@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        >
+	    <TextView
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"	        
+	        android:text="@string/photo_title"
+	        android:textColor="@drawable/red"
+	        android:textStyle="bold"
+	        android:textSize="15sp"
+	        android:layout_weight="1"
+	        android:layout_marginLeft="5dp" 
+	        />
+	
+	    <EditText
+	        android:id="@+id/elem_name"
+	        android:layout_width="100dp"
+	        android:layout_height="wrap_content"
+	        android:inputType="textMultiLine"
+	        android:layout_weight="1"
+	        android:layout_marginLeft="5dp"  
+	        />
+	     
+	    <Spinner
+	        android:id="@+id/class_spinner"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="0.5"
+	        android:layout_gravity="right"
+	        android:layout_marginLeft="15dp"
+	        android:layout_marginRight="5dp" 
+	        />
+	    
+    </LinearLayout>
+     
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        >
+	    
+	    <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"            
+            android:text="@string/photo_new_old"
+            android:textSize="15sp"
+            android:textColor="@drawable/red"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+             
+            />
+	    
+	    <Spinner
+	        android:id="@+id/newphoto_spinner"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="5dp"	         
+	        android:layout_weight="0.5" 
+	        />
+	    
+	  
+	    <Spinner
+	        android:id="@+id/photolist_customerspinner"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="15dp"
+	        android:layout_marginTop="20dp"	         
+	        android:layout_weight="0.5" 
+	        />
+	    
+	    
+    </LinearLayout>
+  
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text="@string/photo_content"
+        android:textSize="15sp" 
+        android:textColor="@drawable/red"
+        android:textStyle="bold" 
+        />
+ 
+    <EditText
+        android:id="@+id/elem_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine" 
+        />
+    
+    
+    <!-- border type -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+     
+	    <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:text="@string/photo_style"
+            android:textSize="10sp"
+            android:textColor="@drawable/red"
+            android:textStyle="bold" 
+            />
+	    	    
+	    <Spinner
+	        android:id="@+id/style_spinner"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="5dp"	         
+	        android:layout_weight="10" 
+	        />
+	    
+	    <Spinner
+	        android:id="@+id/border_customerspinner"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="15dp"	         
+	        android:layout_weight="1" 
+	        />
+	     
+	     <Spinner
+	        android:id="@+id/bordersquare_customerspinner"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="right"
+	        android:layout_marginLeft="15dp"
+	        android:layout_marginRight="5dp"	         
+	        android:layout_weight="1" 
+	        />
+         
+    </LinearLayout>   
+   
+    <!--  
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:text="@string/photo_border"
+            android:textSize="20sp" 
+            />
+	       
+	    <Spinner
+	        android:id="@+id/border_spinner"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        
+	        android:layout_weight="10" 
+	        />
+	     
+	    <Spinner
+	        android:id="@+id/border_updownspinner"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="5dp" 
+	        android:layout_weight="10" 
+	        />
+	    
+	    <Spinner
+	        android:id="@+id/border_customerspinner"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="20dp"
+	         
+	        android:layout_weight="10" 
+	        />
+	      
+    </LinearLayout>
+    -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        
+	    <ImageButton
+	        android:id="@+id/photo_button"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:layout_marginLeft="5dp"
+	        android:src="@drawable/camera7" 
+	        />
+	    
+	    <ImageButton
+	        android:id="@+id/uri_button"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:layout_marginLeft="5dp"
+	         
+	        android:src="@drawable/file2" 
+	        />
+	      
+	     <ImageButton
+	        android:id="@+id/cloud_button"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:layout_marginLeft="5dp" 
+	        android:src="@drawable/cloud62" 
+	        />
+	     
+	     <ImageButton
+	        android:id="@+id/output_button"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:layout_marginLeft="5dp"
+	        android:layout_marginRight="5dp" 
+	        android:src="@drawable/output66" 
+	        />
+         
+    </LinearLayout>
+
+    
+    
+    
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/question_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/save_button_text"
+            android:layout_marginLeft="5dp" 
+            />
+
+        <Button
+            android:id="@+id/answer_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/answer_button_text"
+            android:layout_marginLeft="5dp" 
+            />
+        
+        <Button
+            android:id="@+id/text_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/text_button_text" 
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            />
+
+    </LinearLayout>
+
+    <com.parse.ParseImageView
+        android:id="@+id/elem_preview_image"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1" 
+        />
+
+</LinearLayout>

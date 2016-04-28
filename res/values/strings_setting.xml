@@ -1,0 +1,108 @@
+<resources>
+
+  
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_setting">Settings</string>
+    <string name="title_activity_add_elem">AddElemActivity</string>
+    <string name="title_activity_setup_ques">Setup Question</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_setup_ques">Setup Question</string>
+    <string name="action_new">Add a Picture Title</string>
+    <string name="menu_title">My Picture</string>
+    <string name="save_button_text">Save\nQuestion</string>
+    <string name="answer_button_text">Save\nAnswer</string>
+    <string name="question_button_text">Save</string>
+    <string name="text_button_text">Save\nText</string>
+    <string name="cancel_button_text">Cancel</string>
+    <string name="photo_title">Photo Title/Class :</string>
+    <string name="photo_content">Photo Content   :</string>
+    <string name="photo_class">Class :</string>
+    <string name="photo_new_old">Photo Add/Setup :</string>
+    <string name="photo_photolist">oldPhoto :</string>
+    <string name="photo_style">Style :</string>
+    <string name="photo_border">Border :</string>
+    <string name="question_title">Question Title</string>
+    <string name="answer_content">Answer Content</string>
+    <string name="question_class">Question Class :</string>
+    <string name="answer_style">Answer Style :</string>
+    <string name="setup_class">Setup Class</string>
+    <string name="action_delete">Delete Photo</string>
+    <string name="action_answer">Setup Answer</string>
+    <string name="delete_phototitle">Delete Photo Title</string>  
+    <string name="delete_photoclass">Delete Photo Class :</string>
+    <string name="dialog_question">Question</string>
+    <string name="dialog_answer"> Answer </string>
+    <string name="dialog_describe">Describe</string>
+    
+    <string name="delete">Delete</string>
+    <string name="update71">Update</string>
+    <string name="edit71">Describe</string>
+
+    <string-array name="class_array">
+        <item>face</item>
+        <item>lang</item>
+        <item>shap</item>
+        <item>math</item>
+        <item>clor</item>
+        <item>othe</item>
+    </string-array>
+    
+    <string-array name="newphoto_array">
+        <item>New</item>
+        <item>answer</item>
+        <item>text</item>        
+    </string-array>
+    
+    <string-array name="style_array">
+        <item>square</item>
+        <item>circle</item>
+        <item>userDefine</item>
+        <item>textAddin</item>
+    </string-array>
+    
+    <string-array name="question_array">
+        <item>qus 1</item>
+        <item>qus 2</item>
+    </string-array>
+    
+    <string-array name="answer_array">
+        <item>ans 1</item>
+        <item>ans 2</item>
+        <item>ans 3</item>
+    </string-array>
+    
+    <string-array name="border_array">
+        <item>bd1 border</item>
+        <item>bd2 border</item>
+        <item>bd3 border</item>
+        <item>bd4 border</item>
+        <item>bd5 border</item>
+        <item>bd6 border</item>
+        <item>bd7 solid</item>
+        <item>bd8 solid</item>
+        <item>bd9 solid</item>
+        <item>bd10 solid</item>
+        <item>bd11 solid</item>
+        <item>bd12 solid</item>
+        <item>bd13 solid</item>
+        <item>bd14 solid</item>
+        <item>bd15 solid</item>
+        <item>bd16 solid</item>
+        <item>bd17 solid</item>
+        <item>bd18 solid</item>
+        <item>bd19 solid</item>
+        <item>bd20 solid</item>
+        <item>bd21 border</item>
+        <item>bd22 border</item>
+        <item>bd23 border</item>
+        <item>bd24 border</item>
+        <item>bd25 border</item>
+        <item>bd26 border</item>
+        <item>bd27 border</item>
+        <item>bd28 solid</item>
+        <item>bd29 solid</item>
+        <item>bd30 solid</item>
+    </string-array>
+   
+
+</resources>

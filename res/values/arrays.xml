@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources> 
+    <array name="defaultphoto">
+           <item>@drawable/g01</item>
+           <item>@drawable/g02</item>
+           <item>@drawable/g03</item>
+           <item>@drawable/g04</item>
+           <item>@drawable/g05</item>
+           <item>@drawable/g06</item>
+           <item>@drawable/g07</item>
+           <item>@drawable/g08</item>
+           <item>@drawable/g09</item>
+           <item>@drawable/g10</item>
+           <item>@drawable/g11</item>
+           <item>@drawable/g12</item>
+           <item>@drawable/g13</item>
+           <item>@drawable/g14</item>
+           <item>@drawable/g15</item>
+           <item>@drawable/g16</item>
+           <item>@drawable/g17</item>
+           <item>@drawable/g18</item>
+           <item>@drawable/g19</item>
+           <item>@drawable/g20</item>
+           <item>@drawable/g21</item>
+           <item>@drawable/g22</item>
+           <item>@drawable/g23</item>
+           <item>@drawable/g24</item>
+           <item>@drawable/g25</item>
+           <item>@drawable/g26</item>
+           <item>@drawable/g27</item>
+           <item>@drawable/g28</item>
+           <item>@drawable/g29</item>
+           <item>@drawable/g30</item>
+           <item>@drawable/g31</item>
+           <item>@drawable/g32</item>
+           <item>@drawable/g33</item>
+           <item>@drawable/g34</item>
+           <item>@drawable/g35</item>
+           <item>@drawable/g36</item>
+           <item>@drawable/g37</item>
+           <item>@drawable/g38</item>
+           <item>@drawable/g39</item>
+           <item>@drawable/g40</item>
+           <item>@drawable/g41</item>
+           <item>@drawable/g42</item>
+           <item>@drawable/g43</item>
+           <item>@drawable/g44</item>
+           <item>@drawable/g45</item>
+           <item>@drawable/g46</item>
+           <item>@drawable/g47</item>
+           <item>@drawable/g48</item>
+           <item>@drawable/g49</item>
+           <item>@drawable/g50</item>
+           <item>@drawable/g51</item>
+           <item>@drawable/g52</item>
+           <item>@drawable/g53</item>
+           <item>@drawable/g54</item>
+           <item>@drawable/g55</item>
+           <item>@drawable/g56</item>
+           <item>@drawable/g57</item>
+           <item>@drawable/g58</item>
+           <item>@drawable/g59</item>
+           <item>@drawable/g60</item>
+           <item>@drawable/g61</item>
+           <item>@drawable/g62</item>
+           <item>@drawable/g63</item>
+           <item>@drawable/g64</item>
+           <item>@drawable/g65</item>
+           <item>@drawable/g66</item>
+           <item>@drawable/g67</item>
+           <item>@drawable/g68</item>
+           <item>@drawable/g69</item>
+           <item>@drawable/g70</item>
+           <item>@drawable/g71</item>
+           <item>@drawable/g72</item>
+           <item>@drawable/g73</item>
+           <item>@drawable/g74</item>
+           <item>@drawable/g75</item>
+           <item>@drawable/g76</item>
+           <item>@drawable/g77</item>
+           <item>@drawable/g78</item>
+           <item>@drawable/g79</item>
+           <item>@drawable/g80</item>        
+    </array>
+    <array name="egg">
+           <item>@drawable/egg_ar01</item>
+           <item>@drawable/egg_ag01</item>
+           <item>@drawable/egg_ay01</item>
+    </array>
+    
+    <array name="hand">
+           <item>@drawable/hand01</item>
+           <item>@drawable/hand02</item>        
+    </array>
+    
+    <array name="mouse">
+           <item>@drawable/mouse1</item>
+           <item>@drawable/mouse2</item>        
+    </array>
+    
+    <array name="eye">
+           <item>@drawable/eye_a1</item>
+           <item>@drawable/eye_a2</item>        
+    </array>
+    
+    <array name="sec10">
+           <item>@drawable/icon10</item>
+           <item>@drawable/icon9</item> 
+           <item>@drawable/icon8</item>
+           <item>@drawable/icon7</item>
+           <item>@drawable/icon6</item>
+           <item>@drawable/icon5</item>
+           <item>@drawable/icon4</item>
+           <item>@drawable/icon3</item>
+           <item>@drawable/icon2</item>
+           <item>@drawable/icon1</item>
+           <item>@drawable/icon0</item>     
+    </array>
+    
+    <array name="sec3">
+           <item>@drawable/icon3</item>
+           <item>@drawable/icon2</item>
+           <item>@drawable/icon1</item>
+           <item>@drawable/icon0</item>     
+    </array>
+    
+    
+    
+</resources>

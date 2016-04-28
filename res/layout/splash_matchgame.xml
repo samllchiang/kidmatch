@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/dialy_bg1"
+     android:scaleType="centerInside"
+    android:orientation="vertical"
+    
+    
+     >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <!-- android:src="@drawable/egg_ay01"    "@drawable/egg" -->
+        <ImageView
+            android:id="@+id/egg_ay0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/egg_ay01" 
+            />
+
+        <!-- android:src="@drawable/hand01"      "@drawable/hand"-->
+        <ImageView
+            android:id="@+id/hand0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/hand01" 
+            />
+
+        <!-- android:src="@drawable/eye_a1"       "@drawable/eye"-->
+        <ImageView
+            android:id="@+id/eye_a0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/eye_a1" 
+            />
+
+        <!-- android:src="@drawable/mouse1"      "@drawable/mouse"-->
+        <ImageView
+            android:id="@+id/mouse0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/mouse1" 
+            />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_weight=" 0.1" >
+
+        <ImageButton
+            android:id="@+id/btn_reg"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+             
+            android:src="@drawable/btn_regx"
+	        android:background="@null"
+	        android:scaleType="fitCenter"
+            
+            />
+
+        <ImageButton
+            android:id="@+id/btn_tooth"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+             
+            android:src="@drawable/btn_toothx"
+	        android:background="@null"
+	        android:scaleType="fitCenter"
+            
+            />
+    </LinearLayout>
+    <!--  -->
+    <Space
+        android:layout_width="match_parent" 
+        android:layout_height="10dp"
+        android:layout_weight=" 0.01"
+        />
+    <!--  -->
+</LinearLayout>

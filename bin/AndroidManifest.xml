@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sam.kidmatch"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="21" />
+
+    <!-- support any size of screen -->
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <!-- bluetooth -->
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+
+    <!-- internal camera and feature -->
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <!-- read/write storage -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MANAGE_DOCUMENTS" />
+
+    <!-- internet -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- vibrate -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <!-- service -->
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+
+    <!-- parser -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:name=".KidMatchApp"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" 
+        android:largeHeap="true"
+        >
+
+        <!-- KidMatchActivity(main0) -->
+        <!-- "@android:style/Theme.Black.NoTitleBar.Fullscreen -->
+        <activity
+            android:name=".KidMatchActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/FullscreenTheme" >
+            <!--  -->
+            
+            <!--  -->
+        </activity>
+
+        <!-- SettingActivity -->
+        <activity
+            android:name=".SettingActivity"
+            android:icon="@drawable/settings6"
+            android:label="@string/title_activity_setting" >
+        </activity>
+
+        <!-- AddElemActivity -->
+        <activity
+            android:name=".AddElemActivity"
+            android:icon="@drawable/ic_action_photo"
+            android:label="@string/title_add_elem_activity" >
+        </activity>
+        <!-- AddElemlFragment -->
+        <activity
+            android:name=".AddElemlFragment"
+            android:icon="@drawable/ic_action_photo"
+            android:label="@string/title_add_elem_activity" >
+        </activity>
+        <!-- SetupQuesActivity -->
+        <activity
+            android:name=".SetupQuesActivity"
+            android:label="@string/title_activity_setup_ques" >
+        </activity>
+        <activity
+            android:name=".SetupAsemActivity"
+            android:label="@string/title_activity_setup_ans" >
+        </activity>
+        <activity
+            android:name="com.sam.login.SplashScreenActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+            <!--  --> 
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <!--  -->
+        </activity>
+        <activity
+            android:name="com.sam.login.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.sam.login.SignUpActivity"
+            android:label="@string/title_activity_sign_up"
+            android:parentActivityName="com.sam.login.LoginActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity 
+            android:name=".GridViewSettingActivity" >             
+        </activity>
+        <activity 
+            android:name=".SingleItemView" >
+        </activity>
+    </application>
+
+</manifest>

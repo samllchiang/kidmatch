@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+	>
+	
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:layout_gravity="center_horizontal"
+	    android:layout_weight="1"
+        >
+    
+	        <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="5dp"
+		        android:text="@string/dialog_question"
+		        android:textSize="20sp" 
+		        android:textColor="@drawable/red"
+		        android:layout_gravity="center"
+		        android:textStyle="bold" 
+		        />			
+	        
+		    <com.parse.ParseImageView
+		        android:id="@+id/elem_qus_image"
+		        android:layout_width="match_parent"
+		        android:layout_height="100dp"
+		        android:layout_gravity="center" 
+	            />
+	   
+		    <Button
+			    android:id="@+id/Button_delete"
+		        android:layout_width="wrap_content"
+		        android:layout_height="50dp"
+		        android:drawableLeft="@drawable/delete71"       
+		        android:text="@string/delete"
+		        android:textSize="15sp" 
+		        android:textColor="@drawable/red"		        
+		    	/>
+	    
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:layout_gravity="center_horizontal"
+	    android:layout_weight="1"
+        >    
+    
+		    <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="5dp"
+		        android:text="@string/dialog_answer"
+		        android:textSize="20sp" 
+		        android:textColor="@drawable/red"
+		        android:layout_gravity="center"
+		        android:textStyle="bold" 
+		        />
+		    
+		    <com.parse.ParseImageView
+		        android:id="@+id/elem_ans_image"
+		        android:layout_width="match_parent"
+		        android:layout_height="100dp"
+		        android:layout_gravity="center" 
+		        />
+		    
+		    <Button
+			    android:id="@+id/Button_modify_ans"
+		        android:layout_width="wrap_content"
+		        android:layout_height="50dp"
+		        android:drawableLeft="@drawable/update71"       
+		        android:text="@string/update71"	
+		        android:textSize="15sp" 
+		        android:textColor="@drawable/red"	        
+		    	/>
+    
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:layout_gravity="center_horizontal"
+	    android:layout_weight="1"
+        >
+    
+		    <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="5dp"
+		        android:text="@string/dialog_describe"
+		        android:textSize="20sp" 
+		        android:textColor="@drawable/red"
+		        android:layout_gravity="center"
+		        android:textStyle="bold" 
+		        />
+		    
+		    <com.parse.ParseImageView
+		        android:id="@+id/elem_txt_image"
+		        android:layout_width="match_parent"
+		        android:layout_height="100dp"
+		        android:layout_gravity="center" 
+		        />
+		    
+		    <Button
+			    android:id="@+id/Button_modify_txt"
+		        android:layout_width="wrap_content"
+		        android:layout_height="50dp"
+		        android:drawableLeft="@drawable/edit6"       
+		        android:text="@string/edit71"
+		        android:textSize="15sp" 
+		        android:textColor="@drawable/red"		        
+		    	/>
+	
+	</LinearLayout>
+	
+	
+</LinearLayout>

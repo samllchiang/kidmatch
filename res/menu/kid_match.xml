@@ -1,0 +1,38 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.sam.kidmatch.KidMatchActivity" >
+
+    <!-- KidMatch -->
+    <item android:id="@+id/settings"
+          android:icon="@drawable/settings6"
+          android:title="@string/action_settings" 
+          android:showAsAction="always"
+          android:orderInCategory="100"
+          
+          />
+    <item android:id="@+id/play_type"
+          android:icon="@drawable/play_type6"
+          android:title="@string/action_play_type" 
+          android:showAsAction="always"
+          android:orderInCategory="100"
+          />
+    <item android:id="@+id/top10list"
+          android:icon="@drawable/score6"
+          android:title="@string/action_history" 
+          android:showAsAction="always"
+          android:orderInCategory="100"
+          />    
+    <item android:id="@+id/login"
+          android:icon="@drawable/login6"
+          android:title="@string/action_login" 
+          android:showAsAction="always"
+          android:orderInCategory="100"
+          />
+    <item android:id="@+id/new_game"
+          android:icon="@drawable/newgame6"
+          android:title="@string/action_new_game" 
+          android:showAsAction="always"
+          android:orderInCategory="100"
+          />
+
+</menu>

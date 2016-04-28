@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+	>
+	
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:layout_gravity="center_horizontal"
+	    android:layout_weight="1"
+        >
+    
+	        <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"		         
+		        android:text="@string/dialogtxt_top10list"
+		        android:textSize="20sp" 
+		        android:textColor="@drawable/red"
+		        android:layout_gravity="center"
+		        android:textStyle="bold" 
+		        />
+	   
+		    <TextView
+	            android:id="@+id/dialogtxt_no1"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center"
+	            android:gravity="center"
+	            android:text="@string/dialogtxt_one"
+	            android:textColor="@drawable/yellow"
+	            android:textSize="15sp"
+	            android:textStyle="bold" 
+	            />
+		    
+		    <TextView
+	            android:id="@+id/dialogtxt_no2"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center"
+	            android:gravity="center"
+	            android:text="@string/dialogtxt_two"
+	            android:textColor="@drawable/yellow"
+	            android:textSize="15sp"
+	            android:textStyle="bold" 
+	            />
+		    
+		    <TextView
+	            android:id="@+id/dialogtxt_no3"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center"
+	            android:gravity="center"
+	            android:text="@string/dialogtxt_three"
+	            android:textColor="@drawable/yellow"
+	            android:textSize="15sp"
+	            android:textStyle="bold" 
+	            />
+	    
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:layout_gravity="center_horizontal"
+	    android:layout_weight="1"
+        >    
+    
+		    <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"		         
+		        android:text="@string/dialogtxt_maxcount"
+		        android:textSize="20sp" 
+		        android:textColor="@drawable/red"
+		        android:layout_gravity="center"
+		        android:textStyle="bold" 
+		        />
+		    
+		    <TextView
+	            android:id="@+id/dialogtxt_score1"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center"
+	            android:gravity="center"
+	            android:text="@string/dialogtxt_score1"
+	            android:textColor="@drawable/green"
+	            android:textSize="15sp"
+	            android:textStyle="bold" 
+	            />
+		    
+		    <TextView
+	            android:id="@+id/dialogtxt_score2"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center"
+	            android:gravity="center"
+	            android:text="@string/dialogtxt_score2"
+	            android:textColor="@drawable/green"
+	            android:textSize="15sp"
+	            android:textStyle="bold" 
+	            />
+		    
+		    <TextView
+	            android:id="@+id/dialogtxt_score3"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center"
+	            android:gravity="center"
+	            android:text="@string/dialogtxt_score3"
+	            android:textColor="@drawable/green"
+	            android:textSize="15sp"
+	            android:textStyle="bold" 
+	            />
+    
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:layout_gravity="center_horizontal"
+	    android:layout_weight="1"
+        >
+    
+		    <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"		         
+		        android:text="@string/dialogtxt_username"
+		        android:textSize="20sp" 
+		        android:textColor="@drawable/red"
+		        android:layout_gravity="center"
+		        android:textStyle="bold" 
+		        />
+		    
+		    <TextView
+	            android:id="@+id/dialogtxt_user1"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center"
+	            android:gravity="center"
+	            android:text="@string/dialogtxt_user1"
+	            android:textColor="@drawable/Blue"
+	            android:textSize="15sp"
+	            android:textStyle="bold" 
+	            />
+		    
+		    <TextView
+	            android:id="@+id/dialogtxt_user2"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center"
+	            android:gravity="center"
+	            android:text="@string/dialogtxt_user2"
+	            android:textColor="@drawable/Blue"
+	            android:textSize="15sp"
+	            android:textStyle="bold" 
+	            />
+		    
+		    <TextView
+	            android:id="@+id/dialogtxt_user3"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center"
+	            android:gravity="center"
+	            android:text="@string/dialogtxt_user3"
+	            android:textColor="@drawable/Blue"
+	            android:textSize="15sp"
+	            android:textStyle="bold" 
+	            />
+	
+	</LinearLayout>
+	
+	
+</LinearLayout>
